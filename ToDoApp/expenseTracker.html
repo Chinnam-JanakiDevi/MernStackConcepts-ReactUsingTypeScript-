@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link href="expenseTracker.css" rel="stylesheet">
+</head>
+
+<body>
+    <button id="addTask">Add Task</button>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+        </table>
+    </div>
+    <form id="form" style="display: none;">
+        <div id="formContainer">
+            <input type="date" placeholder="Date" id="date"><br>
+            <input type="text" placeholder="Enter Category" id="category"><br>
+            <input type="number" placeholder="Enter Amount" id="amount"><br>
+            <input type="button" value="Add" id="submitButton">
+        </div>
+    </form>
+    <p id="totalPrice"></p>
+
+    <script src="expenseTracker.js"></script>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="expenseTracker.css" rel="stylesheet">
+</head>
+
+<body>
+    <button id="addTask">Add Task</button>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>Date</td>
+                    <td>Category</td>
+                    <td>Amount</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1-2-24</td>
+                    <td>shopping</td>
+                    <td>1000</td>
+                    <td><button id="updateButton">Update</button></td>
+                    <td><button id="DeleteButton">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <form id="form">
+        <div id="formContainer">
+            <input type="date" placeholder="Date" id="date"><br>
+            <input type="text" placeholder="Enter Category" id="category"><br>
+            <input type="text" placeholder="Enter Amount" id="amount"><br>
+            <input type="submit" value="add" id="submitButton">
+        </div>
+    </form>
+    <script src="expenseTracker.js"></script>
+</body>
+
+</html> -->

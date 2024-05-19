@@ -1,0 +1,152 @@
+* {
+    background-color: #DFD0B8;
+}
+
+.intro {
+    margin-left: 5%;
+    display: flex;
+    gap: 15%;
+}
+
+.intro img {
+    width: 40%;
+}
+
+.intro img:hover {
+    width: 45%;
+    transition: width 1s;
+}
+
+h1 {
+    text-align: center;
+    color: #D20062;
+}
+
+.h2 {
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.html,
+.css,
+.js {
+    color: #8B322C;
+}
+
+ul {
+    color: #280274;
+}
+
+ul li b {
+    color: #D61355;
+}
+
+@media only screen and (min-width:300px) and (max-width:440px) {
+
+    .intro {
+        /* margin-left: 5%; */
+        display: flex;
+        gap: 15%;
+    }
+
+    .intro img {
+        width: 30%;
+    }
+
+    .intro img:hover {
+        width: 40%;
+        transition: width 1s;
+    }
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(130, 121, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container h1 {
+    text-align: center;
+    color: purple;
+    font-size: larger;
+}
+
+.signup-container {
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(154, 196, 196);
+
+}
+
+.signup-container input {
+    width: 90%;
+    margin: 5px;
+    padding: 4px;
+}
+
+/* --------------for b.html------------------------------------------- */
+.container {
+    width: 100vw;
+    background-color: aqua;
+
+}
+
+.signup-container {
+    width: 300px;
+    background-color: aqua;
+}
+
+/* table{
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: rgb(172, 13, 64);
+
+}
+
+tr,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #A3FFD6;
+}
+td,th{
+    padding: 5px;
+}
+
+tr:nth-child(even)
+{
+    background-color: aqua;
+} */
+
+/* --------------for mobile.html------------------------------------------- */
+/* p:hover{
+    color:blue ;
+}
+img{
+    width:30%;
+    
+}
+img:hover{
+    width: 50%;
+    transition:width 1s;
+}
+
+@media only screen and (min-width:410px) and (max-width:440px)
+{
+    img{
+        width:60%;
+        
+    }
+}
+
+@media only print{
+    img{
+        visibility: hidden;
+    }
+} */

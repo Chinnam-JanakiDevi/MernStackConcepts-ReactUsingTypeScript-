@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.products {
+    border: 1px solid black;
+    width: 50%;
+    padding: 20px;
+
+}
+
+.cart {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#listItems {
+    list-style-type: none;
+}
+
+#totalPrice{
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+}
+
+#quantity {
+    width: 50%;
+    padding: 10px;
+    font-size: 1.5em;
+}

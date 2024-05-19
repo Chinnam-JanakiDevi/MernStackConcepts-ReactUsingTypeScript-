@@ -1,0 +1,121 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#left {
+    padding-top: 10px;
+    background-color: #C4E4FF;
+    /* background-color: rgb(13, 2, 82); */
+
+}
+
+/* #right {
+    background-color: #D895DA;
+} */
+.icon {
+    font-size: 24px;
+    color: black;
+}
+
+.img {
+    padding-left: 10%;
+    padding-bottom: 2%;
+    width: 80%;
+}
+
+.img:hover {
+    width: 90%;
+    transition: width 1s;
+}
+
+.about i {
+    font-size: 22px;
+    padding-left: 5%;
+}
+
+.skills {
+    padding-top: 10px;
+}
+
+.skills h5 {
+    padding-left: 30%;
+    color: rgb(7, 40, 201);
+}
+
+.Languages h5 {
+    padding-left: 5%;
+    color: rgb(7, 40, 201);
+}
+
+.services h5 {
+    padding-left: 5%;
+    color: rgb(7, 40, 201);
+}
+
+.lan li {
+    list-style-type: circle;
+}
+
+.summary h1 {
+    font-family: sans-serif;
+    color: #D20062;
+}
+
+.summary {
+    font-size: large;
+}
+
+.education h4 {
+    color: #D6589F;
+    padding-top: 3px;
+}
+
+.custom-table {
+    border: 3px solid black;
+    /* Sets the border color to blue (#007bff) and thickness to 3px */
+}
+
+.custom-table th,
+.custom-table td {
+    border: 3px solid black;
+    /* Sets the border color and thickness for table cells */
+}
+
+.exp h4 {
+    color: #D6589F;
+}
+
+.exp ul .li {
+    list-style-type: none;
+}
+
+.pro h4 {
+    color: #D6589F;
+}
+
+.cer h4 {
+    color: #D6589F;
+}
+
+.tec,
+.name {
+    list-style-type: none;
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+    * {
+        font-size: 16px;
+    }
+
+    #left,
+    #right {
+        width: 100%;
+        display: block;
+    }
+}

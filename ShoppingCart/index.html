@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width={device-width}, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <h1>Shopping Cart</h1> -->
+    <div class="container">
+        <div class="products">
+            <input type="hidden" placeholder="enter no of items" id="quantity">
+            <button id="productButton" data-name="product 1" data-price="100" onclick="quantity()">Product 1  &#x20b9;100</button>
+            <button id="productButton" data-name="product 2" data-price="200" onclick="quantity()">Product 2  &#x20b9;200</button>
+            <button id="productButton" data-name="product 3" data-price="300" onclick="quantity()">Product 3  &#x20b9;300</button>
+        </div>
+        <div class="cart">
+            
+            <ul id="listItems">
+
+            </ul>
+            <p id="totalPrice"></p>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

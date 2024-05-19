@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    background-color: gray;
+}
+
+html {
+    text-align: center;
+}
+
+#timer{
+    font-size: 50px;
+    text-align: right;
+}
+
+#start-button{
+    background-color: red ;
+    width: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.container {
+    padding: 0 15px 15px 15px;
+    height: 100vh;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    /* background-color: rgb(79, 69, 69); */
+}
+
+#word {
+    padding-bottom: 5%;
+}
+
+.hint {
+    font-size: 1.5em;
+}
+
+#keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+
+#keyboard button {
+    width: 35px;
+    margin: 5px;
+    padding: 1px;
+    font-size: 1.5em;
+    background-color: chartreuse;
+}
+
+#keyboard button[disabled] {
+    pointer-events: none;
+    opacity: 0.6;
+}
+#modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.333);
+}
+
+#content{
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+}
+#content #p{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
