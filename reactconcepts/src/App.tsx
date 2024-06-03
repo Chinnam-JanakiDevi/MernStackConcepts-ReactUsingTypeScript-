@@ -6,6 +6,8 @@ import React from 'react';
 // import { WeatherApp } from './weatherApp';
 import CountrySelector from './Disease';
 import DiceGame from './DiceGame';
+import { TableWithCrud }  from './tableWithCrud';
+
 function App() {
   // const [movie,setmovie]=useState<string>("")
   return (
@@ -14,7 +16,8 @@ function App() {
         <Useeffectex name={movie}/> */}
         {/* <WeatherApp /> */}
         {/* <CountrySelector /> */}
-        <DiceGame />
+        {/* <DiceGame /> */}
+        <TableWithCrud />
     </>
   )
 }

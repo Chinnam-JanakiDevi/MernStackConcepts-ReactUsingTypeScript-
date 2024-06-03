@@ -1,0 +1,15 @@
+table, tr, td, th{
+    border-collapse: collapse;
+    border: 1px solid
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.sorted-key{
+    visibility: visible;
+}
+.unsorted-key{
+    visibility:hidden;
+}
